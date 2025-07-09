@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '../backend/.env' });
+require('dotenv').config({ path: '../.env' });
 // Only require HDWalletProvider when using networks that need it
 let HDWalletProvider;
 try {
